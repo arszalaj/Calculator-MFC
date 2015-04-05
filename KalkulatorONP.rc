@@ -1,0 +1,265 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish (Poland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\KalkulatorONP.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\KalkulatorONP.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1                       RT_MANIFEST             "manifest.xml"
+#endif    // Polish (Poland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About KalkulatorONP"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "KalkulatorONP, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_KALKULATORONP_DIALOG DIALOGEX 0, 0, 531, 297
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "KalkulatorONP"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,7,38,155,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Wyrazenie w ONP:",IDC_STATIC,7,27,61,8
+    EDITTEXT        IDC_EDIT2,7,67,155,14,ES_AUTOHSCROLL | WS_GROUP
+    LTEXT           "Wyrazenie:",IDC_STATIC,7,55,38,8
+    EDITTEXT        IDC_EDIT3,7,12,155,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Wynik:",IDC_STATIC,7,2,23,8
+    PUSHBUTTON      "1",IDC_1,13,207,30,12
+    PUSHBUTTON      "2",IDC_2,49,207,30,12
+    PUSHBUTTON      "3",IDC_3,85,207,30,12
+    PUSHBUTTON      "+",IDC_PLUS,121,207,30,12
+    PUSHBUTTON      "4",IDC_4,13,225,30,12
+    PUSHBUTTON      "5",IDC_5,49,225,30,12
+    PUSHBUTTON      "6",IDC_6,85,225,30,12
+    PUSHBUTTON      "-",IDC_MINUS,121,225,30,12
+    PUSHBUTTON      "7",IDC_7,13,243,30,12
+    PUSHBUTTON      "8",IDC_8,49,243,30,12
+    PUSHBUTTON      "9",IDC_9,85,243,30,12
+    PUSHBUTTON      "*",IDC_MULT,121,243,30,12
+    PUSHBUTTON      "+ / -",IDC_PM,13,261,30,12
+    PUSHBUTTON      "0",IDC_0,49,261,30,12
+    PUSHBUTTON      ".",IDC_DOT,85,261,30,12
+    PUSHBUTTON      "/",IDC_DIV,121,261,30,12
+    PUSHBUTTON      "=",IDC_EQUAL,13,279,138,12
+    PUSHBUTTON      "sin",IDC_SIN,13,109,30,12
+    PUSHBUTTON      "(",IDC_LB,85,109,30,12
+    PUSHBUTTON      ")",IDC_RB,121,109,30,12
+    PUSHBUTTON      "cos",IDC_COS,13,127,30,12
+    PUSHBUTTON      "log",IDC_LOG,49,127,30,12
+    PUSHBUTTON      "^",IDC_POW,85,127,30,12
+    PUSHBUTTON      "CE",IDC_CE,121,127,30,12
+    PUSHBUTTON      "tg",IDC_TG,13,145,30,12
+    PUSHBUTTON      "ctg",IDC_CTG,49,145,30,12
+    PUSHBUTTON      "ln",IDC_EXP,49,109,30,12
+    PUSHBUTTON      "PI",IDC_PI,14,167,30,12
+    PUSHBUTTON      "C",IDC_C,121,145,30,12
+    PUSHBUTTON      "sqrt",IDC_SQRT,86,145,30,12
+    CONTROL         "dec",IDC_DEC_RAD,"Button",BS_AUTORADIOBUTTON | WS_GROUP,15,83,27,10
+    CONTROL         "bin",IDC_BIN_RAD,"Button",BS_AUTORADIOBUTTON,51,83,25,10
+    CONTROL         "oct",IDC_OCT_RAD,"Button",BS_AUTORADIOBUTTON,87,83,26,10
+    CONTROL         "hex",IDC_HEX_RAD,"Button",BS_AUTORADIOBUTTON,123,83,28,10
+    PUSHBUTTON      "x",IDC_X,49,167,30,12
+    PUSHBUTTON      "C",IDC_C_HEx,14,184,30,12
+    PUSHBUTTON      "D",IDC_D,50,184,30,12
+    PUSHBUTTON      "E",IDC_E,86,184,30,12
+    PUSHBUTTON      "F",IDC_F,122,184,30,12
+    PUSHBUTTON      "A",IDC_A,86,167,30,12
+    PUSHBUTTON      "B",IDC_B,122,167,30,12
+    CONTROL         "stopnie",IDC_DEG_RAD,"Button",BS_AUTORADIOBUTTON | WS_GROUP,111,95,39,10
+    CONTROL         "radiany",IDC_RAD_RAD,"Button",BS_AUTORADIOBUTTON,69,95,40,10
+    CONTROL         "Inv",IDC_INV_CB,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,41,95,27,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "PRz"
+            VALUE "FileDescription", "Kalkulator ONP"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "KalkulatorONP.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "KalkulatorONP.exe"
+            VALUE "ProductName", "Kalkulator ONP"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_KALKULATORONP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 524
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 290
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About KalkulatorONP..."
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\KalkulatorONP.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
